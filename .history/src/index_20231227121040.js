@@ -27,7 +27,7 @@ function App(props) {
     <div className='container'>
       <h1>Welcome to React, {props.track} rockstars!!</h1>
     <Playground />
-    </div> 
+    </div>
   )
 }
 

@@ -15,6 +15,8 @@ function Playground(props){
   // const state = useState(0);
   // const count = state[0];
   // const setCount = state[1]
+  console.log(count);
+  setCount(count + 500)
 
   return ( 
     <div>

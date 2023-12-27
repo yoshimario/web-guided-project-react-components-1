@@ -14,14 +14,10 @@ function Playground(props){
   const [count, setCount] = useState(0);
   // const state = useState(0);
   // const count = state[0];
-  // const setCount = state[1]
-
+  const setCount = state[1]
+  console.log(count);
   return ( 
-    <div>
-      <p>{count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-      
-    </div>
+    <h1>PLAYGROUND!</h1>
   )
 }
 
