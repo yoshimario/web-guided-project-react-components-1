@@ -15,5 +15,3 @@ function Playground(props){
     <h1>PLAYGROUND!</h1>
   }
 }
-
-export default Playground

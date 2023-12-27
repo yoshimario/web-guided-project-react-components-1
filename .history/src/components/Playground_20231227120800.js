@@ -11,9 +11,5 @@
 import React from 'react'
 
 function Playground(props){
-  return {  
-    <h1>PLAYGROUND!</h1>
-  }
+  return {
 }
-
-export default Playground

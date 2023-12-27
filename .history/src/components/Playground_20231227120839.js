@@ -16,4 +16,4 @@ function Playground(props){
   }
 }
 
-export default Playground
+export
