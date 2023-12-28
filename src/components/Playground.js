@@ -13,6 +13,7 @@ import React, { useState } from 'react';
 function Playground(props){
   const [count, setCount] = useState(0);
   const [spinnerOn, setSpinnerOn] = useState(false);
+  const [weapon, setWeapon] = useState('scissors')
   // const state = useState(0);
   // const count = state[0];
   // const setCount = state[1]
@@ -21,6 +22,10 @@ if (spinnerOn){
     <div className="container">
       <h3>The spinner is {spinnerOn ? "ON" : "OFF"}</h3>
       <button onClick={() => setSpinnerOn(false)}>Turn spinner off</button> 
+      <h3>The current weapon is: {weapon} </h3>
+      <button onClick={() => setWeapon("scissors")}>Pick Scissors</button>
+      <button onClick={() => setWeapon("rock")}>Pick Rock</button>
+      <button onClick={() => setWeapon("paper")}>Pick Papergit</button>
     </div>
   )
 }
