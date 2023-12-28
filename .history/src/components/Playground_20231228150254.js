@@ -12,7 +12,6 @@ import React, { useState } from 'react';
 
 function Playground(props){
   const [count, setCount] = useState(0);
-  const [spinnerOn, setSpinnerOn] = useState(false);
   // const state = useState(0);
   // const count = state[0];
   // const setCount = state[1]
@@ -22,8 +21,6 @@ function Playground(props){
       <p>{count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <button onClick={() => setCount(count - 1)}>Decrement</button>
-      <h3>The spiner is {spinnerOn ? "ON" : "OFF"} </h3>
-      <button onClick={() => setSpinnerOn(!spinnerOn)}>Toggle Spinner</button>
     </div>
   )
 }

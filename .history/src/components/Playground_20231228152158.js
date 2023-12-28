@@ -23,7 +23,7 @@ function Playground(props){
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <button onClick={() => setCount(count - 1)}>Decrement</button>
       <h3>The spiner is {spinnerOn ? "ON" : "OFF"} </h3>
-      <button onClick={() => setSpinnerOn(!spinnerOn)}>Toggle Spinner</button>
+      <button onClick={() => set }></button>
     </div>
   )
 }
