@@ -16,6 +16,14 @@ function Playground(props){
   // const state = useState(0);
   // const count = state[0];
   // const setCount = state[1]
+if (spinnerOn){
+  return (
+    <div className="container">
+      <h3>The spinner is {spinnerOn ? "ON" : "OFF"}</h3>
+      <button onClick={() => setSpinnerOn(false)}>Turn spinner off</button> 
+    </div>
+  )
+}
 
   return ( 
     <div>
