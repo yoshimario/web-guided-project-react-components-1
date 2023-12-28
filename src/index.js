@@ -26,12 +26,14 @@ function App(props) {
   return (
     <div className='container'>
       <h1>Welcome to React, {props.track} rockstars!!</h1>
+      <h2>My name: {props.name}, age: {props.age}</h2>
+      <h3>Are you bored? {props.bored}</h3>
     <Playground />
     </div> 
   )
 }
 
 render(
-  <App track='Web' />,
+  <App track='Web' name='Sean' age={35} bored="YES" />,
   document.querySelector('#root')
 )
